@@ -1,6 +1,8 @@
 # Thermal-ISP
 Image Processing Pipeline for IR Images
 
+Image processing in a thermal camera can be categorized into three groups. The first group includes algorithms necessary for the thermal imager's operation, such as NUC of detector responses and BPC. The second group comprises algorithms that enhance image quality to facilitate interpretation by operators or vision systems. The third group involves image processing algorithms for data analysis, enabling automatic object detection, tracking, and scene interpretation, often associated with machine vision. This implementation is includes algorithms from the first two types.
+
 
 # Readme file for Thermal ISP:
 
