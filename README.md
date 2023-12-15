@@ -36,12 +36,14 @@ This code requires the libpng library and uses the io_png routines.
 # COMPILATION
 1. Download the code package and extract it. Go to that directory.
 
-1. Download and istall the libpng library inside the libpng folder.
+2. Download the libpng library inside the libpng folder.
+	* Change linker folder path in the make file -L<path for .so file>
+	* run ./configure --prefix=/absolute_path_to_libpng_folder --enable-unversioned-links
+	* run make check
+ 	* run make install
 
-2. Compile the source code (on Unix/Linux).
-
-Run
-make OMP=1
+3. Compile the source code (on Unix/Linux).
+	*run make OMP=1
 
 
 # USAGE
